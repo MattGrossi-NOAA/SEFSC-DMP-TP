@@ -1,23 +1,11 @@
 ---
-title: "SEFSC Quarto Documentation Theme"
-subtitle: "This is a placeholder markdown document that will render as the index.html page for the documentation site. Replace content as desired."
+title: "Writing Data Management Plans and Transition Plans"
+subtitle: "Need to write a data management plan or a transition plan? Don't know where to start? Read on!"
 page-layout: full
 ---
 
-This is a template for a simple Quarto website that looks like a "book". This is a common format for documentation. It includes a [GitHub Action](https://github.com/nmfs-opensci/NOAA-quarto-simple-python/blob/main/.github/workflows/render-and-publish.yml) that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to `theme.scss`. The webpage will be on the `gh-pages` branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch. 
+This site provides some initial guidance on writing NOAA data management plans and transition plans for the Southeast Fisheries Science Center.
 
-This Quarto website has Python code in the `code.qmd` file and has a Jupyter notebook. The GitHub Action will render those for you but note that you need some a special **RAW** block at the top of your ipynb file. Without this, the Jupyter notebook won't render (code blocks won't be computed). It looks like this
-```
----
-title: Jupyter Notebook
-execute:
-  enabled: true
-jupyter: python3
----
-```
-Also you will need to add any modules that your code needs to the `requirements.txt` file so they are installed by the GitHub Action.
-
-The documentation page would start at [Read the Docs](/content/docs/index.qmd).
 
 Instructions for using this theme can be found in the [HOWTO: Using the SEFSC Quarto Theme](/content/howto/setup.qmd) pages.
 
